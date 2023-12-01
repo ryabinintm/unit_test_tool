@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.8)
 
 set(CT containers_tests)
-set(TEST_CPPS vector_tests.cpp)
+set(TEST_CPPS
+  vector_tests.cpp
+  list_tests.cpp
+)
 
 set(WIN_FLAGS /W4 /WX)
 set(UNIX_FLAGS -Wall -Wextra -Werror -pedantic)
